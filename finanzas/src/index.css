@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Marca provisional y neutra. replica-brand la reemplaza. */
+:root {
+  --bg: 243 243 246;
+  --surface: 255 255 255;
+  --border: 222 222 228;
+  --text: 30 30 36;
+  --muted: 96 96 110;
+  --accent: 79 70 229;
+  --on-accent: 255 255 255;
+  --accent-soft: 224 222 252;
+  --success: 21 128 61;
+  --danger: 190 18 60;
+  --chip: 236 236 241;
+  --tint-1: 233 222 250;
+  --tint-2: 210 242 230;
+  --tint-3: 254 240 199;
+  --tint-4: 254 221 210;
+}
+.dark {
+  --bg: 18 18 22;
+  --surface: 30 30 36;
+  --border: 52 52 62;
+  --text: 240 240 245;
+  --muted: 165 165 180;
+  --accent: 129 140 248;
+  --on-accent: 18 18 22;
+  --accent-soft: 49 46 99;
+  --success: 74 222 128;
+  --danger: 251 113 133;
+  --chip: 44 44 52;
+  --tint-1: 62 48 92;
+  --tint-2: 30 74 60;
+  --tint-3: 84 70 28;
+  --tint-4: 92 50 40;
+}
+html, body, #root { height: 100%; }
+body { @apply bg-bg text-text font-sans antialiased; -webkit-tap-highlight-color: transparent; }
+:focus-visible { outline: 2px solid rgb(var(--accent)); outline-offset: 2px; }

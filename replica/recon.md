@@ -141,7 +141,7 @@ Tarjeta 1-n Movimiento, Cuenta 1-n Bolsillo, Categoría 1-n Movimiento.
 
 ## Matriz de funciones
 
-Ver `features.csv`. Must: 14, should: 9, could: 6, skip: 9.
+Ver `features.csv`. Must: 14 (1 añadida, no está en la original), should: 9 (1 añadida), could: 6, skip: 9.
 
 ## Fuera de alcance (no se puede o no se debe clonar)
 

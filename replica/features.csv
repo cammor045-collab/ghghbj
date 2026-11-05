@@ -1,0 +1,39 @@
+feature,area,priority,original,clone,notes
+Barra inferior de 5 pestañas con estado activo,navegación,must,yes,no,S01-S06
+Tabs segmentadas Productos / Trámites,navegación,must,yes,no,S03 S04
+Resumen con saldo total y cuentas,inicio,must,yes,no,inferido
+Últimos movimientos en Inicio,inicio,must,yes,no,inferido
+Registrar ingreso o gasto a mano,movimientos,must,no,no,en la original vienen del banco; aquí manual
+Historial de movimientos agrupado por fecha,transacciones,must,yes,no,inferido
+Buscar y filtrar movimientos,transacciones,must,yes,no,inferido
+Agregar y editar cuentas,productos,must,yes,no,S03 Cuentas; registro manual
+Agregar y editar tarjetas (cupo y fechas),productos,must,yes,no,S03 Tarjetas; nunca el número completo
+Bolsillos de ahorro con meta y progreso,explorar,must,yes,no,S02 Bolsillos
+Catálogo Explorar por secciones con íconos de color,explorar,must,yes,no,S02
+Ajustes en grid de íconos,ajustes,must,yes,no,S05
+Iniciar sesión y registro con cuenta propia,ajustes,must,yes,no,S05
+Estados vacíos en todas las listas,general,must,yes,no,
+Tema claro y oscuro,ajustes,should,yes,no,S05 Preferencias de pantalla
+PIN o biometría para abrir la app,ajustes,should,yes,no,S05 Seguridad
+Perfil de usuario,ajustes,should,yes,no,S05 Tu usuario
+Categorías de gasto,día a día,should,yes,no,S02 Día a Día (guess)
+Resumen de gasto por categoría con gráfico,día a día,should,yes,no,guess
+Exportar extracto PDF o CSV,trámites,should,yes,no,S04 Solicitar documentos adaptado
+Badge Nuevo en tarjetas,productos,should,yes,no,S03
+Instalable como PWA,general,should,no,no,añadido
+Protección de datos: exportar y borrar mi cuenta,ajustes,should,yes,no,S05
+Registro manual de créditos,productos,could,yes,no,S03 Créditos
+Registro manual de inversiones,productos,could,yes,no,S03 Inversiones
+Registro manual de seguros,productos,could,yes,no,S03 Seguros
+Sección Para tu negocio,productos,could,yes,no,S03
+Términos y condiciones,ajustes,could,yes,no,S05; textos propios
+Calificar la app,ajustes,could,yes,no,S05
+Transferencias y pagos reales,transacciones,must,yes,skip,requiere licencia bancaria
+Recargar celular,explorar,could,yes,skip,convenio con operadores
+Recargar transporte,explorar,could,yes,skip,convenio con operadores
+Tu360 Inmobiliario y Movilidad,explorar,could,yes,skip,marketplace de aliados de la original
+Puntos Colombia ofertas y viajes,explorar,could,yes,skip,programa de aliados
+Agendar turno en sucursal,trámites,could,yes,skip,depende de un banco físico
+Activar tarjetas físicas,trámites,could,yes,skip,depende del emisor
+Panamá o Puerto Rico,productos,could,yes,skip,filiales del banco
+Datáfonos y pagos en línea,productos,could,yes,skip,procesamiento de pagos regulado
